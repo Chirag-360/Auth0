@@ -8,6 +8,7 @@ function Login() {
 
   return (
     <>
+      <h1>LOGIN Page</h1>
       {isAuthenticated && (
         <div>
           <img src={user.picture} alt={user.name} /> <p>{user.name}</p>
